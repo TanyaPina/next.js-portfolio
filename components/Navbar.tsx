@@ -7,7 +7,7 @@ import { IoMdMenu, IoMdClose } from 'react-icons/io'
 
 interface NavItem {
   label: string
-  page: string 
+  page: string
 }
 
 const NAV_ITEMS: Array<NavItem> = [
@@ -26,8 +26,26 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 const Navbar = () => {
+
+  const { systemTheme, theme, setTheme } = useTheme()
+  const currentTheme = theme === "system" ? systemTheme : theme
+  const [navbar, setNavbar] = useState(false)
+
   return (
-    <div>Navbar</div>
+  <header>
+    <div>
+      <div>
+        <div>
+          <h2>Tanya Piña</h2>
+        </div>
+      </div>
+      <div>
+        {NAV_ITEMS.map((item, idx) => {
+          return <a key={idx}>{item.label}</a>
+        })}
+      </div>
+    </div>
+  </header>
   )
 }
 
