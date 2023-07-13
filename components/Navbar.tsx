@@ -28,7 +28,7 @@ const NAV_ITEMS: Array<NavItem> = [
 const Navbar = () => {
 
   const { systemTheme, theme, setTheme } = useTheme()
-  const currentTheme = theme === "light" ? "light": "dark"
+  const currentTheme = theme ===  "system" ? systemTheme : theme
   const [navbar, setNavbar] = useState(false)
 
   return (
@@ -45,12 +45,12 @@ const Navbar = () => {
         })}
             {
               currentTheme === "dark" ? (
-                <button>
-                  <RiSunLine/>
+                <button onClick={() => setTheme("light")}>
+                  <RiSunLine size={25} />
                 </button>
               ) : (
-                <button>
-                  <RiMoonFill/>
+                <button onClick={() => setTheme("dark")}>
+                  <RiMoonFill size={25}/>
                 </button>
               )}
       </div>
