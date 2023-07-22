@@ -13,7 +13,8 @@ const HeroSection = () => {
           width={300} 
           height={300}/>
         </div>
-          <h1> Hi, I'm Tanya!</h1>
+        <div className="md:mt-2 md:w-3/5">
+        <h1> Hi, I'm Tanya!</h1>
           <p>
             I'm a {" "}
             <span className="font-semibold text-teal-800 dark:text-teal-500">
@@ -33,7 +34,6 @@ const HeroSection = () => {
           >
             Projects
           </Link>
-        <div>
         </div>
       </div>
     </section>
