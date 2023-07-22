@@ -11,6 +11,15 @@ const HeroSection = () => {
           width={300} 
           height={300}/>
         </div>
+          <h1> Hi, I'm Tanya!</h1>
+          <p>
+            I'm a {" "}
+            <span className="font-semibold text-teal-800 dark:text-teal-500">
+            Full-Stack Software Engineer{" "}
+            </span>
+            based in sunny CA. I am passionate about creating inclusive 
+            tech spaces that are by and for underrepresented communities.
+          </p>
         <div>
         </div>
       </div>
