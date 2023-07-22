@@ -2,7 +2,11 @@ import React from 'react'
 
 export const AboutMeSection = () => {
   return (
-    <div>AboutMeSection</div>
+    <section id="about">
+        <div>
+            <h1>About Me</h1>
+        </div>
+    </section>
   )
 }
 
