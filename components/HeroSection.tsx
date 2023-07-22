@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { Link } from "react-scroll/modules"
 
 const HeroSection = () => {
   return (
@@ -20,6 +22,17 @@ const HeroSection = () => {
             based in sunny CA. I am passionate about creating inclusive 
             tech spaces that are by and for underrepresented communities.
           </p>
+          <Link
+          to="projects"
+          className="text-neutral-50 dark:text-stone-900 font-semibold px-6 py-3 bg-teal-800 dark:bg-teal-500 rounded shadow hover:bg-teal-900 dark:hover:bg-teal-300" 
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          >
+            Projects
+          </Link>
         <div>
         </div>
       </div>
