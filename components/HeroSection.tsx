@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section id="home">
       <div>
         <div>
-          <Image src="/headshot.jpg" 
+          <Image className="rounded-full shadow-xl" src="/headshot.jpg" 
           alt="Headshot of Tanya, a Mexican-American person wearing a smile and a burgundy shirt." 
           width={300} 
           height={300}/>
