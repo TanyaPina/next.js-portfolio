@@ -6,9 +6,9 @@ import { Link } from "react-scroll/modules"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div>
-        <div>
-          <Image className="rounded-full shadow-xl" src="/headshot.jpg" 
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+        <div className="md:mt-2 md:w-1/2">
+          <Image className="rounded-full" src="/headshotteal.png" 
           alt="Headshot of Tanya, a Mexican-American person wearing a smile and a burgundy shirt." 
           width={300} 
           height={300}/>
