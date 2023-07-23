@@ -13,7 +13,6 @@ const skills = [
     { skill: "Postman" },
     { skill: "Vite" },
     { skill: "Material UI" },
-    { skill: "Semantic UI" },
     { skill: "Daisy UI" },
 ]
 
@@ -50,6 +49,18 @@ export const AboutMeSection = () => {
                 </div>
                 <div className="md:w-1/2 text-center md:text-left">
                     <h2>My Skills</h2>
+                    <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {skills.map((item, idx) => {
+                return (
+                  <p
+                    key={idx}
+                    className="bg-teal-100 px-4 py-2 mr-2 mt-2 text-zinc-700 rounded font-semibold"
+                  >
+                    {item.skill}
+                  </p>
+                )
+              })}
+            </div>
                 </div>
             </div>
         </section>
