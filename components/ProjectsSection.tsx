@@ -25,6 +25,26 @@ const ProjectsSection = () => {
     <section id="projects">
     <hr className="w-6 h-1 mx-auto my-10 bg-teal-500 border-0 rounded"></hr>
     <h1 className="text-center text-2xl font-bold ">Projects</h1>
+    <div className="flex flex-col space-y-28">
+        {projects.map((project, idx) => {
+          return (
+            <div key={idx}>
+                <div className="flex flex-col md: space-x-12">
+                    <div className="md:w-1/2">
+                        <Image
+                        src={project.image}
+                        alt=""
+                        width={1000}
+                        height={1000}
+                        className="rounded-xl shadow-xl hover:opacity-70"
+                        />
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            )
+        })}   
+      </div>
     </section>
   )
 }
