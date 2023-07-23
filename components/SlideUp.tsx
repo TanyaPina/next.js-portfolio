@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useRef, ReactNode } from 'react'
 
-const SlideUp = () => {
+interface Props {
+    offset?: string
+    children?: ReactNode
+    // any props that come into the component
+  }
+
+const SlideUp = ({ children, offset = "0px" }: Props) => {
   return (
     <div>SlideUp</div>
   )
