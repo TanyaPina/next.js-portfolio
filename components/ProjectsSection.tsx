@@ -49,13 +49,13 @@ const ProjectsSection = () => {
                                             {project.description}
                                         </p>
                                         <div className="flex flex-row align-bottom space-x-4">
-                                            <Link href={project.github} className="flex flex-row mr-10">
+                                            <Link href={project.github} target="_blank" className="flex flex-row mr-10">
                                                 <BsGithub
                                                     size={30}
                                                     className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
                                                 /> GitHub
                                             </Link>
-                                            {project.link && <Link href={project.link} className="flex flex-row">
+                                            {project.link && <Link href={project.link} target="_blank" className="flex flex-row">
                                                 <BsArrowUpRightSquare
                                                     size={30}
                                                     className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
