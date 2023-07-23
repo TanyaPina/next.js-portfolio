@@ -10,6 +10,7 @@ const projects = [
         description:
             "Guess-a-Mon is a web app that uses the PERN stack to provide a way for the nostalgic anime fans to test themselves on their Pokémon knowledge.",
         image: "/Guess-a-Mon.png",
+        alt: "Image of Guess-a-Mon game page",
         github: "https://github.com/TanyaPina/guess-a-mon",
         link: "https://server-stus.onrender.com",
     },
@@ -17,6 +18,7 @@ const projects = [
         name: "Question Craft",
         description: "Question-Craft is a group-made web application that generates questions using the Chat GPT OpenAI API based on user input. It utilizes React and Bootstrap for the frontend and Node.js with Express for the backend.",
         image: "/Question Craft.png",
+        alt: "Image of Question Craft landing page",
         github: "https://github.com/TanyaPina/question-craft",
     },
 ]
@@ -35,7 +37,7 @@ const ProjectsSection = () => {
                                     <div className=" md:w-1/2">
                                         <Image
                                             src={project.image}
-                                            alt=""
+                                            alt={project.alt}
                                             width={1000}
                                             height={1000}
                                             className="rounded-xl shadow-xl hover:opacity-70"
@@ -66,7 +68,6 @@ const ProjectsSection = () => {
                         </div>
                     )
                 })}
-
             </div>
         </section>
     )
