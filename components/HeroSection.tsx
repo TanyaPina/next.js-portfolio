@@ -30,7 +30,7 @@ const HeroSection = () => {
             Resume</a>
           <Link
             to="projects"
-            className="text-neutral-50 dark:text-stone-900 font-semibold px-6 py-3 bg-teal-800 dark:bg-teal-500 rounded shadow hover:bg-teal-900 dark:hover:bg-teal-300"
+            className="text-neutral-50 dark:text-stone-900 font-semibold px-6 py-3 bg-teal-800 dark:bg-teal-500 rounded shadow cursor-pointer hover:bg-teal-900 dark:hover:bg-teal-300"
             activeClass="active"
             spy={true}
             smooth={true}
