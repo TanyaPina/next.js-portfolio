@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection"
 import AboutMeSection from "@/components/AboutMeSection"
 import ProjectsSection from "@/components/ProjectsSection"
+import ContactSection from "@/components/ContactSection"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection/>
       <AboutMeSection/>
       <ProjectsSection/>
+      <ContactSection/>
     </main>
   )
 }

@@ -27,8 +27,8 @@ const ProjectsSection = () => {
     return (
         <section id="projects">
             <hr className="w-6 h-1 mx-auto my-10 bg-teal-500 border-0 rounded"></hr>
-            <h2 className="text-center text-2xl font-bold mb-10">Projects</h2>
-            <div className="flex flex-col space-y-28">
+            <h2 className="text-center text-3xl font-bold mb-10">Projects</h2>
+            <div className="flex flex-col space-y-28 md:pb-10">
                 {projects.map((project, idx) => {
                     return (
                         <div key={idx}>
@@ -44,23 +44,30 @@ const ProjectsSection = () => {
                                         />
                                     </div>
                                     <div className="mt-3 md:w-1/2">
-                                        <h2 className="text-xl font-bold mb-6">{project.name}</h2>
-                                        <p className="leading-7 mb-4">
+                                        <h2 className="text-2xl font-bold mb-6">{project.name}</h2>
+                                        <p className="text-xl leading-7 mb-4">
                                             {project.description}
                                         </p>
                                         <div className="flex flex-row align-bottom space-x-4">
-                                            <Link href={project.github} target="_blank" className="flex flex-row mr-10">
+                                            <Link
+                                                href={project.github}
+                                                target="_blank"
+                                                className="flex inline-flex flex-row items-center mr-10">
                                                 <BsGithub
                                                     size={30}
                                                     className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
                                                 /> GitHub
                                             </Link>
-                                            {project.link && <Link href={project.link} target="_blank" className="flex flex-row">
-                                                <BsArrowUpRightSquare
-                                                    size={30}
-                                                    className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
-                                                />Website
-                                            </Link>}
+                                            {project.link &&
+                                                <Link
+                                                    href={project.link}
+                                                    target="_blank"
+                                                    className="flex inline-flex flex-row items-center">
+                                                    <BsArrowUpRightSquare
+                                                        size={30}
+                                                        className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
+                                                    />Website
+                                                </Link>}
                                         </div>
                                     </div>
                                 </div>

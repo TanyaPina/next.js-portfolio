@@ -1,14 +1,12 @@
 import React from 'react'
-import {
-  AiFillHeart,
-} from "react-icons/ai"
+import { AiFillHeart } from "react-icons/ai"
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+    <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl space-y-5">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
-      <div className="">
-        <div className="flex flex-row items-center justify-center space-x-1">
+      <div className="space-y-5">
+        <div className="flex flex-row items-center justify-center space-x-1 mb-5">
           Made with <AiFillHeart className="mr-1 ml-1" /> by Tanya Piña
         </div>
       </div>
