@@ -25,7 +25,7 @@ const ProjectsSection = () => {
     return (
         <section id="projects">
             <hr className="w-6 h-1 mx-auto my-10 bg-teal-500 border-0 rounded"></hr>
-            <h2 className="text-center text-2xl font-bold mb-6">Projects</h2>
+            <h2 className="text-center text-2xl font-bold mb-10">Projects</h2>
             <div className="flex flex-col space-y-28">
                 {projects.map((project, idx) => {
                     return (
@@ -42,7 +42,7 @@ const ProjectsSection = () => {
                                         />
                                     </div>
                                     <div className="mt-8 md:w-1/2">
-                                        <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
+                                        <h2 className="text-xl font-bold mb-6">{project.name}</h2>
                                         <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                                             {project.description}
                                         </p>
