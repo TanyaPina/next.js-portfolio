@@ -22,6 +22,10 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Projects",
     page: "projects",
+  },
+  {
+    label: "Contact",
+    page: "contact",
   }
 ]
 
@@ -56,7 +60,7 @@ const Navbar = () => {
                 key={idx}
                 to={item.page}
                 className={
-                  "block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100"
+                  "block lg:inline-block text-xl text-neutral-900 hover:text-neutral-600 dark:text-neutral-100"
                 }
                 activeClass="active"
                 spy={true}
