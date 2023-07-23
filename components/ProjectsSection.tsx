@@ -10,7 +10,7 @@ const projects = [
             "Guess-a-Mon is a web app that uses the PERN stack to provide a way for the nostalgic anime fans to test themselves on their Pokémon knowledge.",
         image: "/Guess-a-Mon.png",
         github: "https://github.com/TanyaPina/guess-a-mon",
-        link: "server-stus.onrender.com/",
+        link: "https://server-stus.onrender.com",
     },
     {
         name: "Question Craft",
@@ -44,6 +44,20 @@ const ProjectsSection = () => {
                                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                                         {project.description}
                                     </p>
+                                    <div className="flex flex-row align-bottom space-x-4">
+                                        <Link href={project.github}>
+                                            <BsGithub
+                                                size={30}
+                                                className="hover:-translate-y-1 transition-transform cursor-pointer"
+                                            />
+                                        </Link>
+                                        {project.link && <Link href={project.link}>
+                                            <BsArrowUpRightSquare
+                                                size={30}
+                                                className="hover:-translate-y-1 transition-transform cursor-pointer"
+                                            />
+                                        </Link>}
+                                    </div>
                                 </div>
                             </div>
                         </div>
