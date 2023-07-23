@@ -28,7 +28,7 @@ const ProjectsSection = () => {
         <section id="projects">
             <hr className="w-6 h-1 mx-auto my-10 bg-teal-500 border-0 rounded"></hr>
             <h2 className="text-center text-2xl font-bold mb-10">Projects</h2>
-            <div className="flex flex-col space-y-28">
+            <div className="flex flex-col space-y-28 md:pb-10">
                 {projects.map((project, idx) => {
                     return (
                         <div key={idx}>
