@@ -1,7 +1,5 @@
 import React from 'react'
-import {
-  AiFillHeart,
-} from "react-icons/ai"
+import { AiFillHeart } from "react-icons/ai"
 
 const Footer = () => {
   return (
