@@ -28,9 +28,9 @@ export const AboutMeSection = () => {
                             About Me
                         </h2>
                         <p>
-                         As a first-generation Latine who values community and growth, my journey has led me to working within inclusive and cross-functional spaces.
-                         Before breaking into tech, I was a library assistant under the County of San Bernardino and applied learned skills from my anthropology studies at UC San Diego to host community events and programs. 
-                        I love to read comics in my spare time and hope to make a zine website soon!
+                            As a first-generation Latine who values community and growth, my journey has led me to working within inclusive and cross-functional spaces.
+                            Before breaking into tech, I was a library assistant under the County of San Bernardino and applied learned skills from my anthropology studies at UC San Diego to host community events and programs.
+                            I love to read comics in my spare time and hope to make a zine website soon!
                         </p>
                     </div>
                     <div className="text-center md:w-1/2 md:text-left">
