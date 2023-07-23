@@ -56,7 +56,7 @@ export const AboutMeSection = () => {
                                 return (
                                     <p
                                         key={idx}
-                                        className="bg-teal-100 px-4 py-2 mr-2 mt-2 text-zinc-700 rounded font-semibold"
+                                        className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-zinc-700 rounded font-semibold"
 
                                     >
                                         {item.skill}
