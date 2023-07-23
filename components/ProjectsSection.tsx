@@ -8,7 +8,7 @@ const projects = [
       name: "Guess-a-Mon",
       description:
         "Guess-a-Mon is a web app that uses the PERN stack to provide a way for the nostalgic anime fans to test themselves on their Pokémon knowledge.",
-      image: "/.png",
+      image: "/Guess-a-Mon.png",
       github: "https://github.com/TanyaPina/guess-a-mon",
       link: "server-stus.onrender.com/",
     },
