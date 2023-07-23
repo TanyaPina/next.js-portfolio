@@ -28,26 +28,10 @@ export const AboutMeSection = () => {
                             About Me
                         </h1>
                         <p>
-                            Nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat murders them with its claws
-                            please let me outside pouty face yay! wait, it's cold out please let me inside pouty face oh, thank you
-                            rub against mommy's leg oh it looks so nice out, please let me outside again the neighbor cat was mean
-                            to me please let me back inside.
+                         As a first-generation Latine who values community and growth, my journey has led me to working within inclusive and cross-functional spaces.
+                         Before breaking into tech, I was a library assistant under the County of San Bernardino and applied learned skills from my anthropology studies at UC San Diego to host community events and programs. 
+                        I love to read comics in my spare time and hope to make a zine website soon.
                         </p>
-                        <br />
-                        <p>
-                            Nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat murders them with its claws
-                            please let me outside pouty face yay! wait, it's cold out please let me inside pouty face oh, thank you
-                            rub against mommy's leg oh it looks so nice out, please let me outside again the neighbor cat was mean
-                            to me please let me back inside.
-                        </p>
-                        <br />
-                        <p>
-                            Nyan nyan goes the cat, scraaaaape scraaaape goes the walls when the cat murders them with its claws
-                            please let me outside pouty face yay! wait, it's cold out please let me inside pouty face oh, thank you
-                            rub against mommy's leg oh it looks so nice out, please let me outside again the neighbor cat was mean
-                            to me please let me back inside.
-                        </p>
-
                     </div>
                     <div className="text-center md:w-1/2 md:text-left">
                         <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -57,7 +41,6 @@ export const AboutMeSection = () => {
                                     <p
                                         key={idx}
                                         className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-zinc-700 rounded font-semibold"
-
                                     >
                                         {item.skill}
                                     </p>
