@@ -43,23 +43,23 @@ const ProjectsSection = () => {
                                             className="rounded-xl shadow-xl hover:opacity-70"
                                         />
                                     </div>
-                                    <div className="mt-8 md:w-1/2">
+                                    <div className="mt-3 md:w-1/2">
                                         <h2 className="text-xl font-bold mb-6">{project.name}</h2>
-                                        <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                                        <p className="leading-7 mb-4">
                                             {project.description}
                                         </p>
                                         <div className="flex flex-row align-bottom space-x-4">
-                                            <Link href={project.github}>
+                                            <Link href={project.github} target="_blank" className="flex flex-row mr-10">
                                                 <BsGithub
                                                     size={30}
-                                                    className="hover:-translate-y-1 transition-transform cursor-pointer"
-                                                />
+                                                    className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
+                                                /> GitHub
                                             </Link>
-                                            {project.link && <Link href={project.link}>
+                                            {project.link && <Link href={project.link} target="_blank" className="flex flex-row">
                                                 <BsArrowUpRightSquare
                                                     size={30}
-                                                    className="hover:-translate-y-1 transition-transform cursor-pointer"
-                                                />
+                                                    className="hover:-translate-y-1 transition-transform cursor-pointer mr-2"
+                                                />Website
                                             </Link>}
                                         </div>
                                     </div>
