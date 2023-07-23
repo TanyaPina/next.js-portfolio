@@ -15,7 +15,7 @@ const projects = [
     {
       name: "Question Craft",
       description: "Question-Craft is a group-made web application that generates questions using the Chat GPT OpenAI API based on user input. It utilizes React and Bootstrap for the frontend and Node.js with Express for the backend.",
-      image: "/.png",
+      image: "/Question Craft.png",
       github: "https://github.com/TanyaPina/question-craft",
     },
   ]
