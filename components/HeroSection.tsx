@@ -23,7 +23,7 @@ const HeroSection = () => {
             based in sunny CA. I am passionate about creating inclusive
             tech spaces that are by and for underrepresented communities.
           </p>
-          <a href="/Tanya Pina Resume 23.pdf"
+          <a href="/TanyaPiña_SoftwareEngineer_Resume.pdf"
             target="_blank"
             className="text-neutral-50 dark:text-stone-900 font-semibold px-6 py-3 mr-2 bg-teal-800 dark:bg-teal-500 rounded shadow hover:bg-teal-900 dark:hover:bg-teal-300"
           >
