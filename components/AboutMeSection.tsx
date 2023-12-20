@@ -1,20 +1,22 @@
 import React from 'react'
 
 const skills = [
+    { skill: "JavaScript" },
     { skill: "HTML" },
     { skill: "CSS" },
-    { skill: "JavaScript" },
     { skill: "React" },
-    { skill: "Express" },
+    { skill: "Vite" },
+    { skill: "Bootstrap" },
+    { skill: "Tailwind CSS" },
+    { skill: "Material UI" },
+    { skill: "Figma" },
     { skill: "Node.js" },
+    { skill: "Express" },
     { skill: "PostgreSQL" },
+    { skill: "Docker" },
+    { skill: "Postman" },
     { skill: "Git" },
     { skill: "GitHub" },
-    { skill: "Postman" },
-    { skill: "Vite" },
-    { skill: "Material UI" },
-    { skill: "Semantic UI" },
-    { skill: "Daisy UI" },
 ]
 
 export const AboutMeSection = () => {
