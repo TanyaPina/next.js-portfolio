@@ -6,6 +6,15 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
     {
+        name: "SpoonFull",
+        description:
+            "SpoonFull is a responsive web app that allows users to manage tasks based on energy levels, not just time. Built with React, JavaScript, Tailwind CSS, and libraries such as Material UI, this group project was made during my time as an intern at Cherry on Tech.",
+        image: "/spoonfull.png",
+        alt: "Image of SpoonFull home page",
+        github: "https://github.com/cherryontech/kiwi-kick-project",
+        link: "https://spoonfull-kiwi-kick.netlify.app/",
+    },
+    {
         name: "Guess-a-Mon",
         description:
             "Guess-a-Mon is a web app that uses the PERN stack to provide a way for nostalgic anime fans to test themselves on their Pokémon knowledge.",
@@ -19,7 +28,7 @@ const projects = [
         description: "Question-Craft is a group-made web application that generates questions using the Chat GPT OpenAI API based on user input. It utilizes React and Bootstrap for the frontend and Node.js with Express for the backend.",
         image: "/Question Craft.png",
         alt: "Image of Question Craft landing page",
-        github: "https://github.com/TanyaPina/question-craft",
+        github: "https://github.com/Roshanell/question-craft",
     },
 ]
 
